@@ -1,0 +1,25 @@
+body {
+    background-color: brown;
+    color: white;
+    font-family: "Trade Winds", system-ui;
+    display: flex;
+justify-content: center;
+align-items: center;
+height: 700px;
+margin: 0;
+}
+
+button {
+    background-color: purple;
+    color: white;
+    font-family: "Trade Winds", system-ui;
+    
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo{
+    display:block;
+}
